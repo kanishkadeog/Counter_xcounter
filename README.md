@@ -14,57 +14,79 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+--------------------------------------------------------------------------------------------------------------------------
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# XCounter - ReactJS Form App
 
-### `npm run build`
+**XCounter** is a basic ReactJS application that demonstrates the use of functional components, state management using `useState`, and dynamic UI rendering based on user interaction. It’s designed to meet specific UI and behavior requirements for assessment purposes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📌 Project Overview
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This app displays a numeric count that:
+- Starts at **0** by default
+- Can be **incremented** or **decremented** using buttons
+- Can go into **negative values**
+- Displays the value in the format: `Count: <number>`
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Demo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Live Demo Link](https://xcounter-1oldz3w4m-kanishkas-projects-95e27a37.vercel.app/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📸 Screenshots
 
-## Learn More
+| Initial View | After Submission |
+|--------------|------------------|
+| ![Initial]
+![image](![image](https://github.com/user-attachments/assets/8f4844f4-1548-43e5-8023-bfef659495b2)
+)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| ![Submitted]
+![image](https://github.com/user-attachments/assets/a94de877-aff1-4faf-8afa-a0111ca6492a)
 
-### Code Splitting
+)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ |
 
-### Analyzing the Bundle Size
+## 🎯 Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- ✅ Functional buttons to **increment** and **decrement** the counter
+- ✅ Counter updates dynamically with each click
+- ✅ Counter allows negative numbers
+- ✅ Displays the counter in the **exact** required format: `Count: <value>`
+- ✅ Button labels strictly set to `Increment` and `Decrement`
+- ✅ Fully responsive and styled with inline CSS
+- ✅ Passes all assessment test cases
 
-### Making a Progressive Web App
+-------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## ⚙️ Tech Stack
 
-### Advanced Configuration
+| Tech       | Purpose                      |
+|------------|------------------------------|
+| ReactJS    | Frontend UI and state logic  |
+| JavaScript | Core language                |
+| JSX        | Markup for components        |
+| CSS (inline) | Component-specific styling |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📁 Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+ src/
+   ├── App.js # Main app logic and UI
+   ├── index.js # Entry point for React
+   └── components/
+         └── Counter.js
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+ 
