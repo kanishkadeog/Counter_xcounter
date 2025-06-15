@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Counter from './components/Counter';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={styles.appContainer}>
+      <h1 style={styles.title}>Counter App</h1>
+      <Counter />
     </div>
   );
 }
+
+const styles = {
+  appContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    marginTop: '100px',
+    fontFamily: 'Arial, sans-serif',
+  },
+  title: {
+    marginBottom: '20px',
+    fontSize: '32px',
+  },
+};
 
 export default App;
